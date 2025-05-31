@@ -19,7 +19,7 @@ The model was trained using the following features:
 
 ## Model
 
-- **Type**: XGBoost Regressor
+- **Type**: XGBoost Regressor  
 - **Input**: A JSON or form input with the 5 features listed above
 - **Output**: Predicted house price (float)
 
