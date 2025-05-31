@@ -33,6 +33,7 @@ The model was trained using the following features:
 - `model/` — Saved model file (`model.pkl`)  
 - `tests/` — Unit tests  
 - `.github/workflows/` — GitHub Actions CI/CD pipelines  
+- `k8s/` — Kubernetes deployment manifests and configs
 - `Dockerfile` — For containerizing the app  
 - `requirements.txt` — Python dependencies
 - `README.md` — This file 
