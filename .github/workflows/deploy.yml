@@ -22,7 +22,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Push Docker image
-        run: docker push yourdockerhubuser/mlops-flask-app:latest
+        run: docker push berkaysenyasa/mlops-flask-app:latest
 
       - name: Deploy to Kubernetes on GCP VM via SSH
         uses: appleboy/ssh-action@v0.1.7
