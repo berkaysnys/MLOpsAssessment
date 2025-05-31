@@ -23,5 +23,7 @@ jobs:
         run: python src/train_model.py
 
       - name: Run tests
-        run: pytest tests/
+        run: |
+    export PYTHONPATH=$PYTHONPATH:$(pwd)/src
+    pytest tests/
 
