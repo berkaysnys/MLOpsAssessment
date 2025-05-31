@@ -32,11 +32,11 @@ jobs:
           key: ${{ secrets.GCP_SSH_KEY }}
           script: |
           
-            minikube ssh -- docker pull yourdockerhubuser/mlops-flask-app:latest
+            minikube ssh -- docker pull berkaysenyasa/mlops-flask-app:latest
             
             
             kubectl apply -f /home/${{ secrets.GCP_SSH_USER }}/MLOpsAssessment/k8s/deployment.yaml
-            kubectl apply -f /home/${{ secrets.GCP_SSH_USER }}/MLOpsAssesment/k8s/service.yaml
+            kubectl apply -f /home/${{ secrets.GCP_SSH_USER }}/MLOpsAssessment/k8s/service.yaml
 
             
             kubectl rollout status deployment/mlops-app-deployment
