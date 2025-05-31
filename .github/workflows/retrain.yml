@@ -21,3 +21,8 @@ jobs:
       - name: Retrain model
         run: python src/train_model.py
 
+      - name: Save trained model as artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: trained-model
+          path: model/model.pkl
