@@ -1,7 +1,7 @@
 # MLOpsAssessment - House Price Prediction
 
 ## Project Overview
-This project is part of an MLOps assessment. It predicts house prices using data from the Melbourne Housing Market dataset. The core of the project includes a machine learning model (XGBoost) trained to predict housing prices based on specific features, deployed via a Flask web application.
+This project is part of an MLOps assessment. It predicts house prices using data from the Melbourne Housing Market dataset. The core of the project includes a machine learning model (XGBoost) trained to predict housing prices based on specific features.
 
 ---
 
